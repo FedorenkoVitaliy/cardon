@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+</head>
+
+<body>
+    <header>
+        <div class="obl">
+            <div class="top-menu">
+                <div class="left-nav">
+                    <ul>
+                        <li><a href="#">Решения для бизнеса</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="right-nav">
+                    <ul>
+                        <li>
+                            <div class="ico"></div>
+                            <a href="#">Ваш город: <b> Киев </b></a>
+                        </li>
+                        <li>
+                            <div class="ico ic-2"></div>
+                            <a href="#">Отмеченные</a>
+                        </li>
+                        <li>
+                            <div class="ico ic-3"></div>
+                            <a href="#">Мой поиск</a>
+                        </li>
+                        <li>
+                            <div class="ico ic-4"></div>
+                            <a href="#">Войти</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-menu">
+            <a href="index.html">
+                <div class="logo"></div>
+            </a>
+            <div class="rightn-add">
+                <div class="menu"></div>
+                <ul>
+                    <li><a href="#">Объявления</a></li>
+                    <li><a href="#" class="new-c">Новые авто</a></li>
+                    <li><a href="#">Автомагазин</a></li>
+                    <li><a href="#">Сервисы</a></li>
+                    <li><a href="#">Форум</a></li>
+                    <li class="sos-button"><a href="#">SOS</a></li>
+                </ul>
+                <a href="#" class="gr-a">+ ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+            </div>
+        </div>
+    </header>
+    <div class="main-block">
+        <ul class="top-nav">
+            <li><a href="index.html">Главная</a></li>
+            <li>
+                <a href="#">
+                    <div class="ic"></div>
+                </a>
+            </li>
+            <li><a href="restoring.html">Объявление</a></li>
+        </ul>
+        <div class="wrap container-fluid wt" style="min-height: 80vh;">
+            <h1>Подать объявление в барахолку</h1>
+            <div class="market">
+                <section class="wrapuper">
+                    <ul class="tabs fs">
+                        <li class="car-tb activeg"><span class="tooltip-new">Легковые автомобили</span></li>
+                  <li><span class="tooltip-new">Автобусы</span></li>
+                  <li class="cgo-tb"><span class="tooltip-new">Грузовые автомобили</span></li>
+                  <li class="mot-tb"><span class="tooltip-new">Мототехника</span></li>
+                  <li class="trtr-tb"><span class="tooltip-new">Спецтехника</span></li>
+                        <li class="rl-tb"></li>
+                        <li class="klf-tb"></li>
+                        <li class="carg-tb"></li>
+                    </ul>
+                    <ul class="tab__content shb">
+                        <li class="activeg">
+                            <div class="row">
+                                <div class="mob-12 tab-12 lt-6 mon-4">
+                                    <p class="avs">ТИП ЗАПЧАСТЕЙ</p>
+                                    <form action="" class="l-ftr fchb">
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Выбрать все</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Кузов</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>ДВС</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>КПП</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Ходовая / рулевое управление</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Системы охлаждения/отопления</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Тормозная система</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Тюнинг</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Электроника / электрика</span>
+                                 </label>
+                                    </form>
+                                </div>
+                                <div class="mob-12 tab-12 lt-6 mon-8">
+                                    <div class="row">
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <input type="text" placeholder="Название">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-6 mon-6">
+                                            <input type="text" placeholder="Цена">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-2 mon-2">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>€</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-8 lt-8 mon-8">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>Марка</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>Модель</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <textarea class="bg-inp" placeholder="Доп. информация"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="avs m-o">Добавить фотографии</p>
+                            <p class="min">Размер фото – до 6 мб, количество фото – до 10 шт.</p>
+                            <div class="np-b">
+                                <div class="row">
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-6">
+                                        <input type="text" placeholder="Добавить ссылку на видео (YouTube)">
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="bl-a">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+                        </li>
+                        <li >
+                            <div class="row">
+                                <div class="mob-12 tab-12 lt-6 mon-4">
+                                    <p class="avs">ТИП ЗАПЧАСТЕЙ</p>
+                                    <form action="" class="l-ftr fchb">
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Выбрать все</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Кузов</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>ДВС</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>КПП</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Ходовая / рулевое управление</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Системы охлаждения/отопления</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Тормозная система</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Тюнинг</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Электроника / электрика</span>
+                                 </label>
+                                    </form>
+                                </div>
+                                <div class="mob-12 tab-12 lt-6 mon-8">
+                                    <div class="row">
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <input type="text" placeholder="Название">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-6 mon-6">
+                                            <input type="text" placeholder="Цена">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-2 mon-2">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>€</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-8 lt-8 mon-8">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>Марка</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>Модель</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <textarea class="bg-inp" placeholder="Доп. информация"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="avs m-o">Добавить фотографии</p>
+                            <p class="min">Размер фото – до 6 мб, количество фото – до 10 шт.</p>
+                            <div class="np-b">
+                                <div class="row">
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-6">
+                                        <input type="text" placeholder="Добавить ссылку на видео (YouTube)">
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="bl-a">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+                        </li>
+                        <li >
+                            <div class="row">
+                                <div class="mob-12 tab-12 lt-6 mon-4">
+                                    <p class="avs">ТИП ЗАПЧАСТЕЙ</p>
+                                    <form action="" class="l-ftr fchb">
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Выбрать все</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Кузов</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>ДВС</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>КПП</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Ходовая / рулевое управление</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Системы охлаждения/отопления</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Тормозная система</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Тюнинг</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Электроника / электрика</span>
+                                 </label>
+                                    </form>
+                                </div>
+                                <div class="mob-12 tab-12 lt-6 mon-8">
+                                    <div class="row">
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <input type="text" placeholder="Название">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-6 mon-6">
+                                            <input type="text" placeholder="Цена">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-2 mon-2">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>€</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-8 lt-8 mon-8">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>Марка</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>Модель</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <textarea class="bg-inp" placeholder="Доп. информация"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="avs m-o">Добавить фотографии</p>
+                            <p class="min">Размер фото – до 6 мб, количество фото – до 10 шт.</p>
+                            <div class="np-b">
+                                <div class="row">
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-6">
+                                        <input type="text" placeholder="Добавить ссылку на видео (YouTube)">
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="bl-a">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+                        </li>
+                        <li >
+                            <div class="row">
+                                <div class="mob-12 tab-12 lt-6 mon-4">
+                                    <p class="avs">ТИП ЗАПЧАСТЕЙ</p>
+                                    <form action="" class="l-ftr fchb">
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Выбрать все</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Кузов</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>ДВС</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>КПП</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Ходовая / рулевое управление</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Системы охлаждения/отопления</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Тормозная система</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Тюнинг</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Электроника / электрика</span>
+                                 </label>
+                                    </form>
+                                </div>
+                                <div class="mob-12 tab-12 lt-6 mon-8">
+                                    <div class="row">
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <input type="text" placeholder="Название">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-6 mon-6">
+                                            <input type="text" placeholder="Цена">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-2 mon-2">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>€</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-8 lt-8 mon-8">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>Марка</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>Модель</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <textarea class="bg-inp" placeholder="Доп. информация"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="avs m-o">Добавить фотографии</p>
+                            <p class="min">Размер фото – до 6 мб, количество фото – до 10 шт.</p>
+                            <div class="np-b">
+                                <div class="row">
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-6">
+                                        <input type="text" placeholder="Добавить ссылку на видео (YouTube)">
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="bl-a">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+                        </li>
+                        <li >
+                            <div class="row">
+                                <div class="mob-12 tab-12 lt-6 mon-4">
+                                    <p class="avs">ТИП ЗАПЧАСТЕЙ</p>
+                                    <form action="" class="l-ftr fchb">
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Выбрать все</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Кузов</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>ДВС</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>КПП</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Ходовая / рулевое управление</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Системы охлаждения/отопления</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Тормозная система</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Тюнинг</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Электроника / электрика</span>
+                                 </label>
+                                    </form>
+                                </div>
+                                <div class="mob-12 tab-12 lt-6 mon-8">
+                                    <div class="row">
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <input type="text" placeholder="Название">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-6 mon-6">
+                                            <input type="text" placeholder="Цена">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-2 mon-2">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>€</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-8 lt-8 mon-8">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>Марка</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>Модель</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <textarea class="bg-inp" placeholder="Доп. информация"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="avs m-o">Добавить фотографии</p>
+                            <p class="min">Размер фото – до 6 мб, количество фото – до 10 шт.</p>
+                            <div class="np-b">
+                                <div class="row">
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-6">
+                                        <input type="text" placeholder="Добавить ссылку на видео (YouTube)">
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="bl-a">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="mob-12 tab-12 lt-6 mon-4">
+                                    <p class="avs">ТИП ЗАПЧАСТЕЙ</p>
+                                    <form action="" class="l-ftr fchb">
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Выбрать все</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>ГСМ</span>
+                                 </label>
+                                        <label class="checkbox">
+                                     <input type="checkbox" >
+                                     <span>Автокосметика</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Чехлы / коврики</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Электрика</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Аккумуляторы</span>
+                                 </label> <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Прочее</span>
+                                 </label>
+                                    </form>
+                                </div>
+                                <div class="mob-12 tab-12 lt-6 mon-8">
+                                    <div class="row">
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <input type="text" placeholder="Название">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-6 mon-6">
+                                            <input type="text" placeholder="Цена">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-2 mon-2">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>€</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <textarea class="bg-inp" placeholder="Доп. информация"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="avs m-o">Добавить фотографии</p>
+                            <p class="min">Размер фото – до 6 мб, количество фото – до 10 шт.</p>
+                            <div class="np-b">
+                                <div class="row">
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-6">
+                                        <input type="text" placeholder="Добавить ссылку на видео (YouTube)">
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="bl-a">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="mob-12 tab-12 lt-6 mon-4">
+                                    <p class="avs">ТИП ЗАПЧАСТЕЙ</p>
+                                    <form action="" class="l-ftr fchb">
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Выбрать все</span>
+                                 </label><label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Для легковых авто</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Для грузовых / автобусов</span>
+                                 </label>
+                                        <label class="checkbox">
+                                     <input type="checkbox" >
+                                     <span>Для спецтехники
+</span>
+                                 </label><label class="checkbox">
+                                     <input type="checkbox" >
+                                     <span>Для мотоциклов
+</span>
+                                 </label><label class="checkbox">
+                                     <input type="checkbox" >
+                                     <span>Диски
+</span>
+                                 </label>
+                                    </form>
+                                </div>
+                                <div class="mob-12 tab-12 lt-6 mon-8">
+                                    <div class="row">
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <input type="text" placeholder="Название">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-6 mon-6">
+                                            <input type="text" placeholder="Цена">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-2 mon-2">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>€</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <textarea class="bg-inp" placeholder="Доп. информация"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="avs m-o">Добавить фотографии</p>
+                            <p class="min">Размер фото – до 6 мб, количество фото – до 8 шт.</p>
+                            <div class="np-b">
+                                <div class="row">
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-6">
+                                        <input type="text" placeholder="Добавить ссылку на видео (YouTube)">
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="bl-a">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="mob-12 tab-12 lt-6 mon-4">
+                                    <p class="avs">ТИП ЗАПЧАСТЕЙ</p>
+                                    <form action="" class="l-ftr fchb">
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Выбрать все</span>
+                                 </label><label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Аудио / Видео техника</span>
+                                 </label>
+                                        <label class="checkbox">
+                                 <input type="checkbox" >
+                                 <span>Навигация</span>
+                                 </label>
+                                        <label class="checkbox">
+                                     <input type="checkbox" >
+                                     <span>Охранные системы</span>
+                                 </label>
+                                    </form>
+                                </div>
+                                <div class="mob-12 tab-12 lt-6 mon-8">
+                                    <div class="row">
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <input type="text" placeholder="Название">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-6 mon-6">
+                                            <input type="text" placeholder="Цена">
+                                        </div>
+                                        <div class="mob-12 tab-6 lt-2 mon-2">
+                                            <div include="form-input-select()">
+                                                <select required>
+                                          <option value=""hidden>€</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                          <option value="4">Option 4</option>
+                                          <option value="5">Option 5</option>
+                                       </select>
+                                            </div>
+                                        </div>
+                                        <div class="mob-12 tab-12 lt-12 mon-12">
+                                            <textarea class="bg-inp" placeholder="Доп. информация"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="avs m-o">Добавить фотографии</p>
+                            <p class="min">Размер фото – до 6 мб, количество фото – до 10 шт.</p>
+                            <div class="np-b">
+                                <div class="row">
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-3">
+                                        <div class="form-group">
+                                            <div class="ogn">
+                                                <input type="file" name="file" id="file" class="input-file">
+                                                <label for="file" class="btn-tertiary js-labelFile">
+                                       </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mob-12 tab-6 lt-6">
+                                        <input type="text" placeholder="Добавить ссылку на видео (YouTube)">
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="bl-a">ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <foot-bl>
+            <div class="obr">
+                <div class="lg">
+                    <p>2017 © Все права защищены</p>
+                </div>
+                <div class="soc-b">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+                 
+            </div>
+        </foot-bl>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

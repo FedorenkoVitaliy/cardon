@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+</head>
+
+<body>
+    <header>
+        <div class="obl">
+            <div class="top-menu">
+                <div class="left-nav">
+                    <ul>
+                        <li><a href="#">Решения для бизнеса</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="right-nav">
+                    <ul>
+                        <li>
+                            <div class="ico"></div>
+                            <a href="#">Ваш город: <b> Киев </b></a>
+                        </li>
+                        <li>
+                            <div class="ico ic-2"></div>
+                            <a href="#">Отмеченные</a>
+                        </li>
+                        <li>
+                            <div class="ico ic-3"></div>
+                            <a href="#">Мой поиск</a>
+                        </li>
+                        <li>
+                            <div class="ico ic-4"></div>
+                            <a href="#">Войти</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-menu">
+            <a href="index.html">
+                <div class="logo"></div>
+            </a>
+            <div class="rightn-add">
+                <div class="menu"></div>
+                <ul>
+                    <li><a href="#">Объявления</a></li>
+                    <li><a href="#" class="new-c">Новые авто</a></li>
+                    <li><a href="#">Автомагазин</a></li>
+                    <li><a href="#">Сервисы</a></li>
+                    <li><a href="#">Форум</a></li>
+                    <li class="sos-button"><a href="#">SOS</a></li>
+                </ul>
+                <a href="#" class="gr-a">+ ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+            </div>
+        </div>
+    </header>
+    <ul id="slides">
+        <img src="img/hsl-1.jpg" alt="" style="width:100%">
+        <li class="slide showing">
+            <div class="cont-sl">
+                <p>Оригинальные запчасти <br> для твоего авто !</p>
+                <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+            </div>
+            <img src="img/hsl-1.jpg" alt="">
+        </li>
+        <li class="slide">
+            <div class="cont-sl lef">
+                <p class="wtz">Спецтехника на любой вкус!</p>
+                <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+            </div>
+            <img src="img/hsl-2.jpg" alt="">
+        </li>
+        <li class="slide">
+            <div class="cont-sl lef">
+                <p class="bgo">Барахолка запчастей для авто! <br> Найдете все!</p>
+                <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+            </div>
+            <img src="img/hsl-3.jpg" alt="">
+        </li>
+        <li class="slide">
+            <div class="cont-sl">
+                <p>Найди ближайшее СТО!</p>
+                <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+            </div>
+            <img src="img/hsl-4.jpg" alt="">
+        </li>
+        <li class="slide">
+            <div class="cont-sl lef">
+                <p>Всегда поможем!</p>
+                <a href="#">ПЕРЕЙТИ К УСЛУГАМ</a>
+            </div>
+            <img src="img/hsl-5.jpg" alt="">
+        </li>
+        <li class="slide">
+            <div class="cont-sl lef">
+                <p>Новые авто по доступной цене!</p>
+                <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+            </div>
+            <img src="img/hsl-6.jpg" alt="">
+        </li>
+        <li class="circles-wrapper">
+          <ul id="slides-circles">
+          </ul>
+        </li>
+    </ul>
+    <div class="cars" style="padding-top: 0;">
+        <div class="wrap container-fluid">
+            <ul class="top-nav-oth">
+                <li><a href="index.html">Главная</a></li>
+                <li>
+                    <a href="#">
+                        <div class="ic"></div>
+                    </a>
+                </li>
+                <li><a href="profile.html">Новые авто</a></li>
+            </ul>
+            <div class="row">
+                <div class="mob-12 tab-12 lt-12 mon-9">
+                    <div class="row">
+                        <div class="mob-12 tab-12 lt-4 mon-4">
+                            <div class="block-facet  block-default-open">
+                                <p class="block-title mob-op">Фильтр</p>
+                                <div class="content">
+                                    <div class="main-fltr">
+                                        <p class="fp">популярные марки</p>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Марки</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Volkswagen</b> (235)</a>
+                                                    <a href="#"><b>BMW</b> (235)</a>
+                                                    <a href="#"><b>Audi </b> (235)</a>
+                                                    <a href="#"><b>Toyota</b> (235)</a>
+                                                    <a href="#"><b>Mercedes-Benz </b> (235)</a>
+                                                    <a href="#"><b>Opel </b> (235)</a>
+                                                    <a href="#"><b>Volvo </b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="fp">уточнить поиск</p>
+                                        <div class="row p-min">
+                                            <div class="mob-12">
+                                                <p>Дата выпуска</p>
+                                            </div>
+                                            <div class="mob-6">
+                                                <div include="form-input-select()">
+                                                    <select required>
+                                             <option value=""hidden>2008</option>
+                                             <option value="1">Option 1</option>
+                                             <option value="2">Option 2</option>
+                                             <option value="3">Option 3</option>
+                                             <option value="4">Option 4</option>
+                                             <option value="5">Option 5</option>
+                                          </select>
+                                                </div>
+                                            </div>
+                                            <div class="mob-6">
+                                                <div include="form-input-select()">
+                                                    <select required>
+                                             <option value=""hidden>До</option>
+                                             <option value="1">Option 1</option>
+                                             <option value="2">Option 2</option>
+                                             <option value="3">Option 3</option>
+                                             <option value="4">Option 4</option>
+                                             <option value="5">Option 5</option>
+                                          </select>
+                                                </div>
+                                            </div>
+                                            <div class="mob-12">
+                                                <p>Цена, $</p>
+                                            </div>
+                                            <div class="mob-6">
+                                                <div include="form-input-select()">
+                                                    <select required>
+                                             <option value=""hidden>От</option>
+                                             <option value="1">Option 1</option>
+                                             <option value="2">Option 2</option>
+                                             <option value="3">Option 3</option>
+                                             <option value="4">Option 4</option>
+                                             <option value="5">Option 5</option>
+                                          </select>
+                                                </div>
+                                            </div>
+                                            <div class="mob-6">
+                                                <div include="form-input-select()">
+                                                    <select required>
+                                             <option value=""hidden>До</option>
+                                             <option value="1">Option 1</option>
+                                             <option value="2">Option 2</option>
+                                             <option value="3">Option 3</option>
+                                             <option value="4">Option 4</option>
+                                             <option value="5">Option 5</option>
+                                          </select>
+                                                </div>
+                                            </div>
+                                            <div class="mob-12">
+                                                <p>Объем двигателя, см3</p>
+                                            </div>
+                                            <div class="mob-6">
+                                                <div include="form-input-select()">
+                                                    <select required>
+                                             <option value=""hidden>От</option>
+                                             <option value="1">Option 1</option>
+                                             <option value="2">Option 2</option>
+                                             <option value="3">Option 3</option>
+                                             <option value="4">Option 4</option>
+                                             <option value="5">Option 5</option>
+                                          </select>
+                                                </div>
+                                            </div>
+                                            <div class="mob-6">
+                                                <div include="form-input-select()">
+                                                    <select required>
+                                             <option value=""hidden>До</option>
+                                             <option value="1">Option 1</option>
+                                             <option value="2">Option 2</option>
+                                             <option value="3">Option 3</option>
+                                             <option value="4">Option 4</option>
+                                             <option value="5">Option 5</option>
+                                          </select>
+                                                </div>
+                                            </div>
+                                            <div class="mob-12">
+                                                <p>Мощность, kW</p>
+                                            </div>
+                                            <div class="mob-6">
+                                                <div include="form-input-select()">
+                                                    <select required>
+                                             <option value=""hidden>От</option>
+                                             <option value="1">Option 1</option>
+                                             <option value="2">Option 2</option>
+                                             <option value="3">Option 3</option>
+                                             <option value="4">Option 4</option>
+                                             <option value="5">Option 5</option>
+                                          </select>
+                                                </div>
+                                            </div>
+                                            <div class="mob-6">
+                                                <div include="form-input-select()">
+                                                    <select required>
+                                             <option value=""hidden>До</option>
+                                             <option value="1">Option 1</option>
+                                             <option value="2">Option 2</option>
+                                             <option value="3">Option 3</option>
+                                             <option value="4">Option 4</option>
+                                             <option value="5">Option 5</option>
+                                          </select>
+                                                </div>
+                                            </div>
+                                            <div class="mob-12">
+                                                <p>Пробег</p>
+                                            </div>
+                                            <div class="mob-6">
+                                                <div include="form-input-select()">
+                                                    <select required>
+                                             <option value=""hidden>От</option>
+                                             <option value="1">Option 1</option>
+                                             <option value="2">Option 2</option>
+                                             <option value="3">Option 3</option>
+                                             <option value="4">Option 4</option>
+                                             <option value="5">Option 5</option>
+                                          </select>
+                                                </div>
+                                            </div>
+                                            <div class="mob-6">
+                                                <div include="form-input-select()" class="mb-20">
+                                                    <select required>
+                                             <option value=""hidden>До</option>
+                                             <option value="1">Option 1</option>
+                                             <option value="2">Option 2</option>
+                                             <option value="3">Option 3</option>
+                                             <option value="4">Option 4</option>
+                                             <option value="5">Option 5</option>
+                                          </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <form action="">
+                                            <i class="pl-rg"><input type="text" required placeholder="Поиск"></i>
+                                        </form>
+                                        <form action="" class="l-ftr">
+                                            <label class="checkbox">
+                                    <input type="checkbox" checked>
+                                    <span>Скрытие дефектных</span>
+                                    </label>
+                                            <label class="checkbox">
+                                    <input type="checkbox">
+                                    <span>Руль слева</span>
+                                    </label>
+                                            <label class="checkbox">
+                                    <input type="checkbox">
+                                    <span style="color:#c62727;">Срочная продажа</span>
+                                    </label>
+                                        </form>
+                                        <a href="#" class="bl-a" style="background: #58af4d; margin-bottom:50px;">
+                                            <div class="ico"></div>
+                                            Найти
+                                        </a>
+                                        <p class="fp">Ограничить результаты</p>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Тип топлива</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Бензин</b> (235)</a>
+                                                    <a href="#"><b>Дизель </b> (235)</a>
+                                                    <a href="#"><b>Бензин / газ </b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Тип кузова</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Седан </b> (235)</a>
+                                                    <a href="#"><b>Хэтчбек  </b> (235)</a>
+                                                    <a href="#"><b>Универсал </b> (235)</a>
+                                                    <a href="#"><b>Минивэн </b> (235)</a>
+                                                    <a href="#"><b>Внедорожник  </b> (235)</a>
+                                                    <a href="#"><b>Внедорожник </b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Коробка передач</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Автоматическая </b> (235)</a>
+                                                    <a href="#"><b>Механическая </b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Тип трансмиссии</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Передние ведущие</b> (235)</a>
+                                                    <a href="#"><b>Задние ведущие</b> (235)</a>
+                                                    <a href="#"><b>Полный привод  </b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Количество дверей</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>2/3</b> (235)</a>
+                                                    <a href="#"><b>4/5</b> (235)</a>
+                                                    <a href="#"><b>Другое  </b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Цвет</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Серый / серебристый</b> (235)</a>
+                                                    <a href="#"><b>Синий / голубой</b> (235)</a>
+                                                    <a href="#"><b>Черный  </b> (235)</a>
+                                                    <a href="#"><b>Зеленый / хаки</b> (235)</a>
+                                                    <a href="#"><b>Красный / вишневый </b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Страна</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Литва </b> (235)</a>
+                                                    <a href="#"><b>Латвия </b> (235)</a>
+                                                    <a href="#"><b>Эстония  </b> (235)</a>
+                                                    <a href="#"><b>Польща </b> (235)</a>
+                                                    <a href="#"><b>Германия  </b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Страна первичной регистрации</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Германия </b> (235)</a>
+                                                    <a href="#"><b>Литва </b> (235)</a>
+                                                    <a href="#"><b>Франция  </b> (235)</a>
+                                                    <a href="#"><b>Италия </b> (235)</a>
+                                                    <a href="#"><b>Бельгия </b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Дефекты</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Без дефектов</b> (235)</a>
+                                                    <a href="#"><b>Битый </b> (235)</a>
+                                                    <a href="#"><b>После пожара </b> (235)</a>
+                                                    <a href="#"><b>Дефект коробки передач</b> (235)</a>
+                                                    <a href="#"><b>Повреждения градом </b> (235)</a>
+                                                    <a href="#"><b>Повреждения водой  </b> (235)</a>
+                                                    <a href="#"><b>Дефект двигателя </b> (235)</a>
+                                                    <a href="#"><b>Другие крупные дефекты</b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Тип продавца</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Частный</b> (235)</a>
+                                                    <a href="#"><b>Дилер</b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block-facet block-default-closed">
+                                            <p class="block-title">Объявление не старше</p>
+                                            <div class="content">
+                                                <div class="is">
+                                                    <a href="#"><b>Одного дня </b> (235)</a>
+                                                    <a href="#"><b>Одного дня (новые обьявления</b> (235)</a>
+                                                    <a href="#"><b>Трёх дней  </b> (235)</a>
+                                                    <a href="#"><b>Одной недели </b> (235)</a>
+                                                    <a href="#"><b>Двух недель </b> (235)</a>
+                                                    <a href="#"><b>Одного месяца </b> (235)</a>
+                                                    <a href="#"><b>Дефект двигателя  </b> (235)</a>
+                                                    <a href="#"><b>Двух месяцев</b> (235)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mob-12 tab-12 lt-8 mon-8">
+                            <div class="catalog">
+                                <h1>Б/У АВТОМОБИЛИ</h1>
+
+                                <div class="fl-nav">
+                                    <p>Найдено <span>45</span> авто</p>
+                                    <ul>
+                                        <li>
+                                            <p>Сортировка:</p>
+                                        </li>
+                                        <li><a href="#">Самые новые</a></li>
+                                        <li><a href="#">Самые дешевые</a></li>
+                                        <li><a href="#">Самые дорогие</a></li>
+                                    </ul>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="univ-bl">
+                                    <div class="im-bl"><img src="img/car-prev.png" alt=""></div>
+                                    <div class="ct-bl">
+                                        <a href="#" class="nm-cr">Flfa Romeo 159, 1.9 l./ Седан</a>
+                                        <p class="prc">13 250€</p>
+                                        <ul>
+                                            <li>2010-17</li>
+                                            <li>Дизель</li>
+                                            <li>Механическая</li>
+                                            <li>88kBт</li>
+                                            <li>150 000 км </li>
+                                        </ul>
+                                        <div class="izb-time">
+                                            <a href="#">
+                                                <div class="ico"></div>
+                                                Добавить в избранные
+                                            </a>
+                                            <p>добавлено 4 часа назад</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pag">
+                                    <div>
+                                        <a href="#">1</a>
+                                        <a href="#">2</a>
+                                        <a href="#">3</a>
+                                        <a href="#" class="actv">4</a>
+                                        <a href="#">5</a>
+                                        <a href="#">6</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mob-12">
+                            <div class="bot-bann">
+                                <p>новинка каталога</p>
+                                <p>Subaru <br> от 22 000 €</p>
+                                <a href="#" class="gr-a">ПОДРОБНЕЕ</a>
+                            </div>
+                        </div>
+                        <div class="mob-12 ico-models">
+                            <div class="row around-mon">
+                                <div class="mob-6 tab-4 lt-4 mon-2">
+                                    <ul>
+                                        <li>
+                                            <div class="ico"></div>
+                                            <a href='#'>Alfa-Romeo</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-1"></div>
+                                            <a href='#'>Audi</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-2"></div>
+                                            <a href='#'>BMW</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-3"></div>
+                                            <a href='#'>Cadillac</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-4"></div>
+                                            <a href='#'>Citroen</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-5"></div>
+                                            <a href='#'>Dacia</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-6"></div>
+                                            <a href='#'>Fiat</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mob-6 tab-4 lt-4 mon-2">
+                                    <ul>
+                                        <li>
+                                            <div class="ico i-7"></div>
+                                            <a href='#'>Ford</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-8"></div>
+                                            <a href='#'>Honda</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-9"></div>
+                                            <a href='#'>Hyundai</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-10"></div>
+                                            <a href='#'>Isuzu</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-11"></div>
+                                            <a href='#'>Jaguar</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-12"></div>
+                                            <a href='#'>Jeep</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-13"></div>
+                                            <a href='#'>Kia</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mob-6 tab-4 lt-4 mon-2">
+                                    <ul>
+                                        <li>
+                                            <div class="ico i-14"></div>
+                                            <a href='#'>Land Rover</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-15"></div>
+                                            <a href='#'>Lexus</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-16"></div>
+                                            <a href='#'>Maserati</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-17"></div>
+                                            <a href='#'>Mazda</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-18"></div>
+                                            <a href='#'>Mercedes Benz</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-19"></div>
+                                            <a href='#'>MINI</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-20"></div>
+                                            <a href='#'>Mitsubishi</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mob-6 tab-4 lt-4 mon-2">
+                                    <ul>
+                                        <li>
+                                            <div class="ico i-21"></div>
+                                            <a href='#'>Nissan</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-22"></div>
+                                            <a href='#'>Opel</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-23"></div>
+                                            <a href='#'>Peugeot</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-24"></div>
+                                            <a href='#'>Porsche</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-25"></div>
+                                            <a href='#'>Renault</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-26"></div>
+                                            <a href='#'>Seat</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-27"></div>
+                                            <a href='#'>Škoda</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mob-6 tab-4 lt-4 mon-2">
+                                    <ul>
+                                        <li>
+                                            <div class="ico i-28"></div>
+                                            <a href='#'>SsangYong</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-29"></div>
+                                            <a href='#'>Subaru</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-30"></div>
+                                            <a href='#'>Suzuki</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-31"></div>
+                                            <a href='#'>Toyota</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-32"></div>
+                                            <a href='#'>Volkswagen</a>
+                                        </li>
+                                        <li>
+                                            <div class="ico i-33"></div>
+                                            <a href='#'>Volvo</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mob-12 tab-12 lt-12 mon-3">
+                    <div class="row">
+                        <div class="mob-12 tab-4 lt-4 mon-12">
+                            <a href="#" class="adver-banner">
+                                <img src="img/bnr-1.jpg" alt="">
+                                <p>НОВЫЕ АВТОМОБИЛИ</p>
+                            </a>
+                        </div>
+                        <div class="mob-12 tab-4 lt-4 mon-12">
+                            <a href="#" class="adver-banner">
+                                <img src="img/bnr-1.jpg" alt="">
+                                <p>СРОЧНАЯ ПРОДАЖА</p>
+                            </a>
+                        </div>
+                        <div class="mob-12 tab-4 lt-4 mon-12">
+                            <a href="#" class="adver-banner">
+                                <img src="img/bnr-1.jpg" alt="">
+                                <p>СПЕЦ. ПРЕДЛОЖЕНИЕ</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <foot-bl>
+            <div class="obr">
+                <div class="lg">
+                    <!--                <div class="logo"></div>-->
+                    <p>2017 © Все права защищены</p>
+                </div>
+                <div class="soc-b">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+                 
+            </div>
+        </foot-bl>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
