@@ -67,8 +67,7 @@ a {
 .gr-a {
   background: $main-a;
   color: #fff;
-  width: 210px;
-  padding: .7rem 0;
+  padding: .7rem 1rem;
   border-radius: 5px;
   display: block;
   text-align: center;
@@ -347,8 +346,7 @@ select {
 //css need convert to scss end
 
 .top-menu {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
   justify-content: space-between;
 
   width: 100%;
@@ -384,9 +382,8 @@ select {
 /*нижнее меню*/
 
 .nav-bar {
-  display: grid;
-  grid-template-columns: 112px auto 210px;
-  grid-column-gap: 2.3rem;
+  display: flex;
+  justify-content: space-between;
   padding: 1rem 2rem;
   .logo {
     width: 112px;
@@ -399,10 +396,9 @@ select {
   }
 
   .menu-link {
-    display: grid;
-    grid-template-columns: repeat(6, auto);
-    grid-column-gap: 1rem;
-    justify-content: end;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
     align-items: center;
     li {
       white-space: nowrap;
@@ -762,6 +758,7 @@ form span {
       color: #000;
     }
     .gr-a {
+      margin-left: 2.3rem;
       padding: .7rem 1.8rem;
       .ico {
         position: relative;
@@ -1691,8 +1688,7 @@ input[type="text"]::-webkit-input-placeholder {
   transform: translateY(-50%);
   width: 15px;
   height: 18px;
-  background: url(../img/mail-ico.png) no-repeat;
-  background-position: center;
+  background: url(../img/mail-ico.png) no-repeat center;
 }
 
 .pl-rg {
@@ -2245,31 +2241,20 @@ p.sr {
 
 .tm-ab {
   max-width: 295px;
-  padding: 17px 0;
-  padding-left: 11px;
+  padding-bottom: 17px;
   margin-bottom: 15px;
   font-weight: bold;
-  line-height: 30px;
+
+  & .tm-ab-item {
+    margin-bottom: 15px;
+  }
 }
 
 .read-me {
   background: $all-gr;
   padding: 30px;
   position: relative;
-  &:before {
-    content: '';
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: url(../img/mail-ico.png), $all-gr;
-    background-repeat: no-repeat;
-    background-size: 40%;
-    background-position: center;
-  }
+
   .rm {
     text-transform: uppercase;
     text-align: center;
@@ -2683,63 +2668,63 @@ p.sr {
 .fs > li.activeg {
   border: none;
   color: #fff;
-  background: url(../img/bus-tbs.png), $main-blue no-repeat center -19px;
+  background: url(../img/bus-tbs.png) $main-blue no-repeat center -19px;
 }
 
 .fs > li.car-tb {
-  background: url(../img/car-tbs.png), #fafafa no-repeat center 6px;
+  background: url(../img/car-tbs.png) #fafafa no-repeat center 6px;
 }
 
 .fs > li.car-tb.activeg {
-  background: url(../img/car-tbs.png), $main-blue no-repeat center -19px;
+  background: url(../img/car-tbs.png) $main-blue no-repeat center -19px;
 }
 
 .fs > li.cgo-tb {
-  background: url(../img/cgo-tbs.png), #fafafa no-repeat center 6px;
+  background: url(../img/cgo-tbs.png) #fafafa no-repeat center 6px;
 }
 
 .fs > li.cgo-tb.activeg {
-  background: url(../img/cgo-tbs.png), $main-blue no-repeat center -19px;
+  background: url(../img/cgo-tbs.png) $main-blue no-repeat center -19px;
 }
 
 .fs > li.mot-tb {
-  background: url(../img/mot-tbs.png), #fafafa no-repeat center 6px;
+  background: url(../img/mot-tbs.png) #fafafa no-repeat center 6px;
 }
 
 .fs > li.mot-tb.activeg {
-  background: url(../img/mot-tbs.png), $main-blue no-repeat center -19px;
+  background: url(../img/mot-tbs.png) $main-blue no-repeat center -19px;
 }
 
 .fs > li.trtr-tb {
-  background: url(../img/trtr-tbs.png), #fafafa no-repeat center 6px;
+  background: url(../img/trtr-tbs.png) #fafafa no-repeat center 6px;
 }
 
 .fs > li.trtr-tb.activeg {
-  background: url(../img/trtr-tbs.png), $main-blue no-repeat center -19px;
+  background: url(../img/trtr-tbs.png) $main-blue no-repeat center -19px;
 }
 
 .fs > li.rl-tb {
-  background: url(../img/rl-tbs.png), #fafafa no-repeat center 6px;
+  background: url(../img/rl-tbs.png) #fafafa no-repeat center 6px;
 }
 
 .fs > li.rl-tb.activeg {
-  background: url(../img/rl-tbs.png), $main-blue no-repeat center -19px;
+  background: url(../img/rl-tbs.png) $main-blue no-repeat center -19px;
 }
 
 .fs > li.klf-tb {
-  background: url(../img/klf-tbs.png), #fafafa no-repeat center 6px;
+  background: url(../img/klf-tbs.png) #fafafa no-repeat center 6px;
 }
 
 .fs > li.klf-tb.activeg {
-  background: url(../img/klf-tbs.png), $main-blue no-repeat center -19px;
+  background: url(../img/klf-tbs.png) $main-blue no-repeat center -19px;
 }
 
 .fs > li.carg-tb {
-  background: url(../img/carg-tbs.png), #fafafa no-repeat center 6px;
+  background: url(../img/carg-tbs.png) #fafafa no-repeat center 6px;
 }
 
 .fs > li.carg-tb.activeg {
-  background: url(../img/carg-tbs.png), $main-blue no-repeat center -19px;
+  background: url(../img/carg-tbs.png) $main-blue no-repeat center -19px;
 }
 
 //--доп
@@ -4296,22 +4281,21 @@ tooltip-new {
   }
 
   .nav-bar {
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-between;
-
+    flex-wrap: wrap;
     padding: 1rem 1.5rem;
 
     .menu-link {
-      grid-column: 1/span 2;
-      grid-row: 2;
       justify-content: space-around;
+      justify-self: center;
+      flex-wrap: wrap;
+
+      height: 40px;
+      width: 100%;
+      order: 2;
     }
     .gr-a {
-      display: grid;
-      grid-column: 2;
-      grid-row: 1;
       justify-self: end;
+
     }
   }
 
@@ -4320,7 +4304,12 @@ tooltip-new {
 @media only screen and (max-width: 805px) {
 
   .top-menu {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    flex-wrap:wrap;
+
+    .control-panel{
+      width: 100%;
+      justify-self: flex-end;
+    }
   }
 }
 
@@ -4417,7 +4406,9 @@ tooltip-new {
     height: 0;
   }
   .change {
-    height: 170px !important;
+    display: flex !important;
+    height: 40px !important;
+    margin-top: 10px;
   }
   .rightn-add .menu {
     display: block !important;
@@ -4526,6 +4517,10 @@ tooltip-new {
 @media only screen and (max-width: 530px) {
   .top-menu {
     padding: 1rem 1rem;
+
+    .control-panel{
+      flex-wrap: wrap;
+    }
   }
 
   .top-menu > * {
@@ -4550,8 +4545,11 @@ tooltip-new {
 
     .menu-link {
       display: none;
-      grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
       transition: 2s;
+
+      li{
+        padding: 0 10px;
+      }
     }
 
     .gr-a {
