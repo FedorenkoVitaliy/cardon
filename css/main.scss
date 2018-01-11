@@ -4511,9 +4511,48 @@ tooltip-new {
   .gil {
     margin: 20px 0;
   }
+  //start media-queries Sed
+  .contacts{
+    &>div:nth-child(-2n+3){
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+
+    .phone{
+      order:-2;
+    }
+
+    .schedule{
+      order:-1;
+    }
+
+    .address{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      flex-basis: 100%;
+      max-width: 100%;
+
+      &>div{
+        display: flex;
+        flex-wrap:wrap;
+        width: 47%;
+      }
+      & span{
+        display:block;
+      }
+
+      .social{
+        justify-content: center;
+        width: 100%;
+      }
+    }
+
+  }
 }
 
-//start media-queries Sed
+
 @media only screen and (max-width: 530px) {
   .top-menu {
     padding: 1rem 1rem;
@@ -4590,6 +4629,38 @@ tooltip-new {
   }
   .otmen .oblg .cont .ns {
     top: -75px;
+  }
+
+  .contacts{
+    flex-direction:column;
+
+    &>div:nth-child(-n+3){
+      max-width: 100%;
+      justify-content: center;
+      margin-left:15vw;
+    }
+
+    .phone{
+
+      order:-2;
+    }
+
+    .schedule{
+
+      order:-1;
+    }
+
+    .address{
+      flex-direction: column;
+
+      >div{
+        width: 100%;
+      }
+      .social{
+        justify-content: start;
+      }
+    }
+
   }
 }
 

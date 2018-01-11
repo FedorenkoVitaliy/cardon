@@ -4672,6 +4672,35 @@ tooltip-new {
   .gil {
     margin: 20px 0;
   }
+  .contacts > div:nth-child(-2n+3) {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .contacts .phone {
+    order: -2;
+  }
+  .contacts .schedule {
+    order: -1;
+  }
+  .contacts .address {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .contacts .address > div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 47%;
+  }
+  .contacts .address span {
+    display: block;
+  }
+  .contacts .address .social {
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 530px) {
@@ -4739,6 +4768,29 @@ tooltip-new {
   }
   .otmen .oblg .cont .ns {
     top: -75px;
+  }
+  .contacts {
+    flex-direction: column;
+  }
+  .contacts > div:nth-child(-n+3) {
+    max-width: 100%;
+    justify-content: center;
+    margin-left: 15vw;
+  }
+  .contacts .phone {
+    order: -2;
+  }
+  .contacts .schedule {
+    order: -1;
+  }
+  .contacts .address {
+    flex-direction: column;
+  }
+  .contacts .address > div {
+    width: 100%;
+  }
+  .contacts .address .social {
+    justify-content: start;
   }
 }
 
