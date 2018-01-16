@@ -261,6 +261,11 @@ $(document).ready(function () {
       } else {continue}
     }
   })
+
+
+
+
+
     /*setInterval(function () {
         if (cursorAway) {
             $("#main-slide").html(slidesz[slideNumber]);
@@ -279,4 +284,20 @@ $(document).ready(function () {
 //    }).mouseleave(function () {
 //        cursorAway = true;
 //    });
+
+    var agreement=$(".agreement");
+    var toggleAgrShow=$(".toggleAgrShow");
+    var toggleAgrHide=$(".toggleAgrHide");
+
+    toggleAgrShow.click(function(){
+        agreement.toggle(1000);
+        toggleAgrShow.toggle();
+        toggleAgrHide.toggle();
+    });
+
+    toggleAgrHide.click(function(){
+        agreement.toggle(1000);
+        toggleAgrHide.toggle();
+        toggleAgrShow.toggle();
+    });
 });
