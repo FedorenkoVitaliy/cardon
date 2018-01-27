@@ -19,10 +19,11 @@
             <li><a href="#">О компании</a></li>
             <li><a href="#">Контакты</a></li>
         </ul>
-        <ul class="control-panel">
+        <ul class="control-left">
             <li><a href="#"><img src="img/ic-1.png" alt="">Ваш город: <b> Киев </b></a></li>
             <li><a href="#"><img src="img/ic-2.png" alt="">Отмеченные</a></li>
-            <li><a href="#"><img src="img/ic-3.png" alt="">Мой поиск</a></li>
+        </ul>
+        <ul class="control-right"><li><a href="#"><img src="img/ic-3.png" alt="">Мой поиск</a></li>
             <li><a href="#"><img src="img/ic-4.png" alt="">Войти</a></li>
         </ul>
     </div>
@@ -84,43 +85,59 @@
         </div>
         <img src="img/hsl-6.jpg" alt="">
     </li>
+    <li class="circles-wrapper">
+        <ul id="slides-circles">
+        </ul>
+    </li>
 </ul>
 
 <div class="cars">
-    <div class="wrap container-fluid">
+    <div class="wrap container-fluid container-fluid content-wrapper">
         <div class="row">
-            <div class="mob-12 tab-12 lt-9 mon-9">
-                <div class="row contacts">
-                    <div class="mob-6 tab-4 lt-4 mon-4 phone">
-                        <div class="icn">+380 (3352) 7-13-52</div>
-                        <div class="icn">+38 (096) 13-62-123</div>
-                        <div class="icn">+38 (073) 71-13-352</div>
-                    </div>
-                    <div class="mob-12 tab-4 lt-4 mon-4 address">
-                        <div class="icn mp">г. Киев,<span> ул. Зеленая 8</span></div>
-                        <div class="icn ct-ml">cardon@gmail.com</div>
-                        <div class="m-s social">
-                            <a href="#">
-                                <div class="soc"></div>
-                            </a>
-                            <a href="#">
-                                <div class="soc fcb"></div>
-                            </a>
-                            <a href="#">
-                                <div class="soc vk"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="mob-6 tab-4 lt-4 mon-4 schedule">
-                        <div class="tm-ab">
-                            <div class="tm-ab-item">Пн - Пт: з 9 00 до 18 00</div>
-                            <div> Сб: з 10 00 до 15 00</div>
-                            <div class="tm-ab-item">Нд: вихідний</div>
-                        </div>
-                    </div>
-
+            <div class="mob-12 tab-12 lt-9 mon-9 main-content ">
+                <div class="row">
                     <div class="mob-12 tab-12 lt-12 mon-12">
-                        <div class="read-me m-d">
+                        <div class=" contacts row">
+                            <div class="mob-6 tab-4 lt-4 mon-4 phone">
+                                <div class="icn">+380 (3352) 7-13-52</div>
+                                <div class="icn">+38 (096) 13-62-123</div>
+                                <div class="icn">+38 (073) 71-13-352</div>
+                            </div>
+                            <div class="mob-12 tab-4 lt-4 mon-4 address">
+                                <div class="icn mp">г. Киев,<span> ул. Зеленая 8</span></div>
+                                <div class="icn ct-ml">cardon@gmail.com</div>
+                                <div class="social">
+                                    <a href="#">
+                                        <div class="soc"></div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="soc fcb"></div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="soc vk"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mob-12 tab-4 lt-4 mon-4 schedule">
+                                <div class="tm-ab">
+                                    <div class="tm-ab-item">Пн - Пт: з 9 00 до 18 00</div>
+                                    <div class="tm-ab-item"> Сб: з 10 00 до 15 00</div>
+                                    <div class="tm-ab-item">Нд: вихідний</div>
+                                    <div class="icn mp tm-ab-item">г. Киев,<span> ул. Зеленая 8</span></div>
+                                    <div class="icn ct-ml tm-ab-item">cardon@gmail.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mob-12 tab-12">
+                        <div class="adver-banner">
+                            <a href="#" class="bnr-1">
+                                <p>НОВЫЕ АВТОМОБИЛИ</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mob-12 tab-12 lt-12 mon-12">
+                        <div class="read-me .m-d">
                             <p class="about">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
                                 является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий
                                 безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem
@@ -134,7 +151,6 @@
                                 Lorem
                                 Ipsum.
                             </p>
-
                             <div class="agreement" style="display:none;">
                                 <h3 class="section">Раздел I. Общие положения:</h3>
                                 <p>1.1 Данное Соглашение являются публичным договором присоединения. Регистрация
@@ -151,10 +167,9 @@
                                 <p>1.3 Данное Соглашение в равной мере распространяется на всех, без исключения,
                                     Пользователей, в том числе использующих следующие коммерческие сервисы сайтов (в
                                     дальнейшем “Коммерческие пользователи”):
-                                <p>1.3.1 Приобретение услуг: <br>Автообновление</br>, Пост в соц.сетях, Срочная продажа,
-                                    Поднять в ТОП, Рекомендуем, <br>Провести акцию;</br></p>
+                                <p>1.3.1 Приобретение услуг: <b>Автообновление</b>, Пост в соц.сетях, Срочная продажа,
+                                    Поднять в ТОП, Рекомендуем, <b>Провести акцию;</b></p>
                                 <p>1.3.2 Публикация информации, данных о Пользователе.</p>
-                                </p>
                                 <p>1.4 Сайт не несет ответственность за ведомости (информацию, данные), которые
                                     разместил
                                     Пользователь. Компания не является участником сделок, а лишь предоставляет
@@ -178,7 +193,6 @@
                                     на Сайте;</p>
                                 <p>1.5.4 за нарушение Пользователем авторских и иных прав третьих лиц, путем
                                     опубликования материалов, добавленных Пользователем на Сайт.</p>
-                                </p>
                                 <p>1.6 Сайт не несет ответственности за размещение информации злоумышленниками, а именно
                                     размещение информации, данных с заведомо не правдивой информацией, цель которой -
                                     ввести в заблуждение Пользователей сайта и получить материальную выгоду незаконным
@@ -187,7 +201,6 @@
                                     сайтах с задержкой от нескольких минут до 3-х рабочих дней. Сайт оставляет за собой
                                     право не отображать и/или удалять информацию Пользователя, нарушающую условия
                                     настоящего Соглашения.</p>
-
 
                                 <h3 class="section">Раздел II. Описание сервиса сайта CARDON.*</h3>
                                 <p>2.1 Сайт является веб-сервисом, который предоставляет пользователям следующие сервисы
@@ -202,7 +215,6 @@
                                     результатов поиска информации, данных внесенных в базу данных Сайта Пользователем о
                                     продаже транспортных средств, товаров и услуг, который оплатил этот сервис;</p>
                                 <p>2.1.5 размещать комментарии.</p>
-                                </p>
                                 <p>2.2 Информация, данные могут выводится в поисковике при запросе по номеру телефона
                                     (e-mail и др.), если они были указаны в описании . В таком случае, Сайт не несет
                                     ответственности за любой вред или неудобства, причиненные Пользователю в связи с
@@ -216,209 +228,223 @@
                                     другими пользователями и несут полную ответственность перед владельцем информации за
                                     неправомерное использование.</p>
                             </div>
-
                             <button class="toggleAgrShow gr-a">Показать</button>
                             <button class="toggleAgrHide gr-a" style="display:none;">Скрыть</button>
-
-
-                            <div class="mob-12 ico-models">
-                                <div class="bot-bann">
-                                    <p>новинка каталога</p>
-                                    <p>Subaru <br> от 22 000 €</p>
-                                    <a href="#" class="gr-a">ПОДРОБНЕЕ</a>
-                                </div>
-                                <div class="row around-mon carBrands">
-                                    <div class="mob-6 tab-4 lt-4 mon-2">
-                                        <ul>
-                                            <li>
-                                                <div class="ico"></div>
-                                                <a href="#">Alfa-Romeo</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-1"></div>
-                                                <a href="#">Audi</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-2"></div>
-                                                <a href="#">BMW</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-3"></div>
-                                                <a href="#">Cadillac</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-4"></div>
-                                                <a href="#">Citroen</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-5"></div>
-                                                <a href="#">Dacia</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-6"></div>
-                                                <a href="#">Fiat</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="mob-6 tab-4 lt-4 mon-2">
-                                        <ul>
-                                            <li>
-                                                <div class="ico i-7"></div>
-                                                <a href="#">Ford</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-8"></div>
-                                                <a href="#">Honda</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-9"></div>
-                                                <a href="#">Hyundai</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-10"></div>
-                                                <a href="#">Isuzu</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-11"></div>
-                                                <a href="#">Jaguar</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-12"></div>
-                                                <a href="#">Jeep</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-13"></div>
-                                                <a href="#">Kia</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="mob-6 tab-4 lt-4 mon-2">
-                                        <ul>
-                                            <li>
-                                                <div class="ico i-14"></div>
-                                                <a href="#">Land Rover</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-15"></div>
-                                                <a href="#">Lexus</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-16"></div>
-                                                <a href="#">Maserati</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-17"></div>
-                                                <a href="#">Mazda</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-18"></div>
-                                                <a href="#">Mercedes Benz</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-19"></div>
-                                                <a href="#">MINI</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-20"></div>
-                                                <a href="#">Mitsubishi</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="mob-6 tab-4 lt-4 mon-2">
-                                        <ul>
-                                            <li>
-                                                <div class="ico i-21"></div>
-                                                <a href="#">Nissan</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-22"></div>
-                                                <a href="#">Opel</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-23"></div>
-                                                <a href="#">Peugeot</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-24"></div>
-                                                <a href="#">Porsche</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-25"></div>
-                                                <a href="#">Renault</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-26"></div>
-                                                <a href="#">Seat</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-27"></div>
-                                                <a href="#">Škoda</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="mob-6 tab-4 lt-4 mon-2">
-                                        <ul>
-                                            <li>
-                                                <div class="ico i-28"></div>
-                                                <a href="#">SsangYong</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-29"></div>
-                                                <a href="#">Subaru</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-30"></div>
-                                                <a href="#">Suzuki</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-31"></div>
-                                                <a href="#">Toyota</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-32"></div>
-                                                <a href="#">Volkswagen</a>
-                                            </li>
-                                            <li>
-                                                <div class="ico i-33"></div>
-                                                <a href="#">Volvo</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="mob-12 tab-12">
+                        <div class="adver-banner">
+                            <a href="#" class="bnr-2">
+                                <p>СРОЧНАЯ ПРОДАЖА</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mob-12 tab-12 lt-12 mon-12">
+                        <div class="bot-bann">
+                            <p>новинка каталога</p>
+                            <p>Subaru <br> от 22 000 €</p>
+                            <a href="#" class="gr-a">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <div class="mob-12 tab-12 ">
+                        <div class="adver-banner">
+                            <a href="#" class="bnr-1">
+                                <p>СПЕЦ. ПРЕДЛОЖЕНИЕ</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mob-12 tab-12 lt-12 mon-12 ico-models">
+                        <div class="row around-mon carBrands">
+                            <div class="mob-7 tab-4 lt-4 mon-2">
+                                <ul>
+                                    <li>
+                                        <div class="ico"></div>
+                                        <a href="#">Alfa-Romeo</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-1"></div>
+                                        <a href="#">Audi</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-2"></div>
+                                        <a href="#">BMW</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-3"></div>
+                                        <a href="#">Cadillac</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-4"></div>
+                                        <a href="#">Citroen</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-5"></div>
+                                        <a href="#">Dacia</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-6"></div>
+                                        <a href="#">Fiat</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mob-5 tab-4 lt-4 mon-2">
+                                <ul>
+                                    <li>
+                                        <div class="ico i-7"></div>
+                                        <a href="#">Ford</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-8"></div>
+                                        <a href="#">Honda</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-9"></div>
+                                        <a href="#">Hyundai</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-10"></div>
+                                        <a href="#">Isuzu</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-11"></div>
+                                        <a href="#">Jaguar</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-12"></div>
+                                        <a href="#">Jeep</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-13"></div>
+                                        <a href="#">Kia</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mob-7 tab-4 lt-4 mon-2">
+                                <ul>
+                                    <li>
+                                        <div class="ico i-14"></div>
+                                        <a href="#">Land Rover</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-15"></div>
+                                        <a href="#">Lexus</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-16"></div>
+                                        <a href="#">Maserati</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-17"></div>
+                                        <a href="#">Mazda</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-18"></div>
+                                        <a href="#">Mercedes Benz</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-19"></div>
+                                        <a href="#">MINI</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-20"></div>
+                                        <a href="#">Mitsubishi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mob-5 tab-4 lt-4 mon-2">
+                                <ul>
+                                    <li>
+                                        <div class="ico i-21"></div>
+                                        <a href="#">Nissan</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-22"></div>
+                                        <a href="#">Opel</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-23"></div>
+                                        <a href="#">Peugeot</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-24"></div>
+                                        <a href="#">Porsche</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-25"></div>
+                                        <a href="#">Renault</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-26"></div>
+                                        <a href="#">Seat</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-27"></div>
+                                        <a href="#">Škoda</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mob-7 tab-4 lt-4 mon-2">
+                                <ul>
+                                    <li>
+                                        <div class="ico i-28"></div>
+                                        <a href="#">SsangYong</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-29"></div>
+                                        <a href="#">Subaru</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-30"></div>
+                                        <a href="#">Suzuki</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-31"></div>
+                                        <a href="#">Toyota</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-32"></div>
+                                        <a href="#">Volkswagen</a>
+                                    </li>
+                                    <li>
+                                        <div class="ico i-33"></div>
+                                        <a href="#">Volvo</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mob-12 tab-12 lt-3 mon-3">
+            <div class="mob-12 tab-12 lt-3 mon-3 adver-banner-block ">
                 <div class="row">
-                    <div class="mob-12 tab-6 lt-12 mon-12">
-                        <a href="#" class="adver-banner">
-                            <img src="img/bnr-1.jpg" alt="">
-                            <p>НОВЫЕ АВТОМОБИЛИ</p>
-                        </a>
+                    <div class="lt-12 mon-12">
+                        <div class="adver-banner">
+                            <a href="#" class="bnr-1">
+                                <p>НОВЫЕ АВТОМОБИЛИ</p>
+                            </a>
+                        </div>
                     </div>
-                    <div class="mob-12 tab-6 lt-12 mon-12">
-                        <a href="#" class="adver-banner">
-                            <img src="img/bnr-1.jpg" alt="">
-                            <p>СРОЧНАЯ ПРОДАЖА</p>
-                        </a>
+                    <div class="lt-12 mon-12">
+                        <div class="adver-banner">
+                            <a href="#" class="bnr-2">
+                                <p>СРОЧНАЯ ПРОДАЖА</p>
+                            </a>
+                        </div>
                     </div>
-                    <div class="mob-12 tab-6 lt-12 mon-12">
-                        <a href="#" class="adver-banner">
-                            <img src="img/bnr-1.jpg" alt="">
-                            <p>СПЕЦ. ПРЕДЛОЖЕНИЕ</p>
-                        </a>
+                    <div class="lt-12 mon-12">
+                        <div class="adver-banner">
+                            <a href="#" class="bnr-1">
+                                <p>СПЕЦ. ПРЕДЛОЖЕНИЕ</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 </div>
 <footer>
-    <foot-bl>
+    <div>
         <div class="obr">
             <div class="lg">
                 <!--                <div class="logo"></div>-->
@@ -431,7 +457,7 @@
             </div>
 
         </div>
-    </foot-bl>
+    </div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/main.js"></script>

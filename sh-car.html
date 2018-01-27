@@ -9,55 +9,34 @@
    </head>
    <body>
       <header>
-         <div class="obl">
-            <div class="top-menu">
-               <div class="left-nav">
-                  <ul>
-                     <li><a href="#">Решения для бизнеса</a></li>
-                     <li><a href="#">О компании</a></li>
-                     <li><a href="#">Контакты</a></li>
-                  </ul>
-               </div>
-               <div class="right-nav">
-                  <ul>
-                     <li>
-                        <div class="ico"></div>
-                        <a href="#">Ваш город: <b> Киев </b></a>
-                     </li>
-                     <li>
-                        <div class="ico ic-2"></div>
-                        <a href="#">Отмеченные</a>
-                     </li>
-                     <li>
-                        <div class="ico ic-3"></div>
-                        <a href="#">Мой поиск</a>
-                     </li>
-                     <li>
-                        <div class="ico ic-4"></div>
-                        <a href="#">Войти</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="bottom-menu">
-            <a href="index.html">
-               <div class="logo"></div>
-            </a>
-            <div class="rightn-add">
-               <div class="menu"></div>
-               <ul>
-                  <li><a href="#">Объявления</a></li>
-                  <li><a href="#" class="new-c">Новые авто</a></li>
-                  <li><a href="#">Автомагазин</a></li>
-                  <li><a href="#">Сервисы</a></li>
-                  <li><a href="#">Форум</a></li>
-                  <li class="sos-button"><a href="#">SOS</a></li>
-               </ul>
-               <a href="#" class="gr-a">+ ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
-            </div>
-         </div>
-      </header>
+    <div class="top-menu">
+        <ul class="hot-link">
+            <li><a href="#">Решения для бизнеса</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="control-left">
+            <li><a href="#"><img src="img/ic-1.png" alt="">Ваш город: <b> Киев </b></a></li>
+            <li><a href="#"><img src="img/ic-2.png" alt="">Отмеченные</a></li>
+        </ul>
+        <ul class="control-right"><li><a href="#"><img src="img/ic-3.png" alt="">Мой поиск</a></li>
+            <li><a href="#"><img src="img/ic-4.png" alt="">Войти</a></li>
+        </ul>
+    </div>
+    <nav class="nav-bar">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="menu"></div>
+        <ul class="menu-link">
+            <li><a href="#">Объявления</a></li>
+            <li><a href="#" class="new-c">Новые авто</a></li>
+            <li><a href="#">Автомагазин</a></li>
+            <li><a href="#">Сервисы</a></li>
+            <li><a href="#">Форум</a></li>
+            <li class="sos-button"><a href="#">SOS</a></li>
+        </ul>
+        <a href="#" class="gr-a">+ ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
+    </nav>
+</header>
       <ul id="slides">
          <img src="img/hsl-1.jpg" alt="" style="width:100%">
          <li class="slide showing">
@@ -106,6 +85,7 @@
           <ul id="slides-circles">
           </ul>
         </li>
+
       </ul>
       <div class="cars">
          <div class="wrap container-fluid">
@@ -130,15 +110,15 @@
                                     <div class="mob-12 tab-12 lt-6 mon-5">
                                        <div class="container-radio">
                                           <div class="radio">
-                                             <input id="radio-1" name="radio" type="radio" checked>
+                                             <input id="radio-1" name="radioauto" type="radio" checked>
                                              <label for="radio-1" class="radio-label">Новое</label>
                                           </div>
                                           <div class="radio">
-                                             <input id="radio-2" name="radio" type="radio">
+                                             <input id="radio-2" name="radioauto" type="radio">
                                              <label for="radio-2" class="radio-label">Б/у</label>
                                           </div>
                                           <div class="radio">
-                                             <input id="radio-3" name="radio" type="radio">
+                                             <input id="radio-3" name="radioauto" type="radio">
                                              <label for="radio-3" class="radio-label">Искать все</label>
                                           </div>
                                        </div>
@@ -555,7 +535,7 @@
                         <span>Подогрев сидений</span>
                         </label> <label class="checkbox">
                         <input type="checkbox" >
-                        <span>Эл. регулируемые сиденья</span>
+                        <span>Эл. регулируемые сидения</span>
                         </label> <label class="checkbox">
                         <input type="checkbox" >
                         <span>Вентиляция сидений</span>
@@ -702,16 +682,16 @@
                                     <div class="mob-12 tab-12 lt-6 mon-5">
                                        <div class="container-radio">
                                           <div class="radio">
-                                             <input id="radio-1" name="radio" type="radio" checked>
-                                             <label for="radio-1" class="radio-label">Новое</label>
+                                             <input id="radio-4" name="radiobus" type="radio" checked>
+                                             <label for="radio-4" class="radio-label">Новое</label>
                                           </div>
                                           <div class="radio">
-                                             <input id="radio-2" name="radio" type="radio">
-                                             <label for="radio-2" class="radio-label">Б/у</label>
+                                             <input id="radio-5" name="radiobus" type="radio">
+                                             <label for="radio-5" class="radio-label">Б/у</label>
                                           </div>
                                           <div class="radio">
-                                             <input id="radio-3" name="radio" type="radio">
-                                             <label for="radio-3" class="radio-label">Искать все</label>
+                                             <input id="radio-6" name="radiobus" type="radio">
+                                             <label for="radio-6" class="radio-label">Искать все</label>
                                           </div>
                                        </div>
                                     </div>
@@ -724,7 +704,7 @@
                                     <div class="mob-12 tab-6 lt-4 mon-4">
                                        <div include="form-input-select()">
                                           <select required>
-                                             <option value=""hidden>Марка</option>
+                                             <option value=""hidden>Тип</option>
                                              <option value="1">Option 1</option>
                                              <option value="2">Option 2</option>
                                              <option value="3">Option 3</option>
@@ -732,6 +712,16 @@
                                              <option value="5">Option 5</option>
                                           </select>
                                        </div>
+                                        <div include="form-input-select()">
+                                            <select required>
+                                                <option value=""hidden>Марка</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                                <option value="4">Option 4</option>
+                                                <option value="5">Option 5</option>
+                                            </select>
+                                        </div>
                                        <div include="form-input-select()">
                                           <select required>
                                              <option value=""hidden>Тип трансмиссии</option>
@@ -754,7 +744,7 @@
                                        </div>
                                        <div include="form-input-select()">
                                           <select required>
-                                             <option value=""hidden>Количество мест</option>
+                                             <option value=""hidden>С-ма кондиционирования воздуха</option>
                                              <option value="1">Option 1</option>
                                              <option value="2">Option 2</option>
                                              <option value="3">Option 3</option>
@@ -765,16 +755,6 @@
                                        <div include="form-input-select()">
                                           <select required>
                                              <option value=""hidden>Цвет</option>
-                                             <option value="1">Option 1</option>
-                                             <option value="2">Option 2</option>
-                                             <option value="3">Option 3</option>
-                                             <option value="4">Option 4</option>
-                                             <option value="5">Option 5</option>
-                                          </select>
-                                       </div>
-                                       <div include="form-input-select()">
-                                          <select required>
-                                             <option value=""hidden>Емкость топливного бака, л</option>
                                              <option value="1">Option 1</option>
                                              <option value="2">Option 2</option>
                                              <option value="3">Option 3</option>
@@ -827,16 +807,6 @@
                                        <div include="form-input-select()">
                                           <select required>
                                              <option value=""hidden>Руль</option>
-                                             <option value="1">Option 1</option>
-                                             <option value="2">Option 2</option>
-                                             <option value="3">Option 3</option>
-                                             <option value="4">Option 4</option>
-                                             <option value="5">Option 5</option>
-                                          </select>
-                                       </div>
-                                       <div include="form-input-select()">
-                                          <select required>
-                                             <option value=""hidden>С-ма кондиционирования воздуха</option>
                                              <option value="1">Option 1</option>
                                              <option value="2">Option 2</option>
                                              <option value="3">Option 3</option>
@@ -956,7 +926,7 @@
                                              </div>
                                           </div>
                                          <div class="mob-12 tab-12 lt-4 mon-4">
-                                             <p class="d-ph">Объем двигателя, см3</p>
+                                             <p class="d-ph" style="margin:0;">Объем двигателя, см3</p>
                                           </div>
                                           <div class="mob-12 tab-6 lt-4 mon-4">
                                              <div include="form-input-select()">
@@ -970,18 +940,46 @@
                                                 </select>
                                              </div>
                                           </div>
-                                          <div class="mob-12 tab-6 lt-4 mon-4">
-                                             <div include="form-input-select()">
-                                                <select required>
-                                                   <option value=""hidden>До</option>
-                                                   <option value="1">Option 1</option>
-                                                   <option value="2">Option 2</option>
-                                                   <option value="3">Option 3</option>
-                                                   <option value="4">Option 4</option>
-                                                   <option value="5">Option 5</option>
-                                                </select>
-                                             </div>
-                                          </div>
+                                           <div class="mob-12 tab-6 lt-4 mon-4">
+                                               <div include="form-input-select()">
+                                                   <select required>
+                                                       <option value=""hidden>До</option>
+                                                       <option value="1">Option 1</option>
+                                                       <option value="2">Option 2</option>
+                                                       <option value="3">Option 3</option>
+                                                       <option value="4">Option 4</option>
+                                                       <option value="5">Option 5</option>
+                                                   </select>
+                                               </div>
+                                           </div>
+                                           <div class="mob-12 tab-12 lt-4 mon-4">
+                                               <p class="d-ph">Количество мест</p>
+                                           </div>
+                                           <div class="mob-12 tab-6 lt-4 mon-4">
+                                               <div include="form-input-select()">
+                                                   <select required>
+                                                       <option value=""hidden>От</option>
+                                                       <option value="1">Option 1</option>
+                                                       <option value="2">Option 2</option>
+                                                       <option value="3">Option 3</option>
+                                                       <option value="4">Option 4</option>
+                                                       <option value="5">Option 5</option>
+                                                   </select>
+                                               </div>
+                                           </div>
+                                           <div class="mob-12 tab-6 lt-4 mon-4">
+                                               <div include="form-input-select()">
+                                                   <select required>
+                                                       <option value=""hidden>До</option>
+                                                       <option value="1">Option 1</option>
+                                                       <option value="2">Option 2</option>
+                                                       <option value="3">Option 3</option>
+                                                       <option value="4">Option 4</option>
+                                                       <option value="5">Option 5</option>
+                                                   </select>
+                                               </div>
+                                           </div>
+
                                        </div>
                                        
                                     </div>
@@ -1241,16 +1239,16 @@
                                     <div class="mob-12 tab-12 lt-6 mon-5">
                                        <div class="container-radio">
                                           <div class="radio">
-                                             <input id="radio-1" name="radio" type="radio" checked>
-                                             <label for="radio-1" class="radio-label">Новое</label>
+                                             <input id="radio-7" name="radiotrack" type="radio" checked>
+                                             <label for="radio-7" class="radio-label">Новое</label>
                                           </div>
                                           <div class="radio">
-                                             <input id="radio-2" name="radio" type="radio">
-                                             <label for="radio-2" class="radio-label">Б/у</label>
+                                             <input id="radio-8" name="radiotrack" type="radio">
+                                             <label for="radio-8" class="radio-label">Б/у</label>
                                           </div>
                                           <div class="radio">
-                                             <input id="radio-3" name="radio" type="radio">
-                                             <label for="radio-3" class="radio-label">Искать все</label>
+                                             <input id="radio-9" name="radiotrack" type="radio">
+                                             <label for="radio-9" class="radio-label">Искать все</label>
                                           </div>
                                        </div>
                                     </div>
@@ -1261,6 +1259,16 @@
                                  </div>
                                  <div class="row">
                                     <div class="mob-12 tab-6 lt-4 mon-4">
+                                        <div include="form-input-select()">
+                                            <select required>
+                                                <option value=""hidden>Тип</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                                <option value="4">Option 4</option>
+                                                <option value="5">Option 5</option>
+                                            </select>
+                                        </div>
                                        <div include="form-input-select()">
                                           <select required>
                                              <option value=""hidden>Марка</option>
@@ -1293,7 +1301,7 @@
                                        </div>
                                        <div include="form-input-select()">
                                           <select required>
-                                             <option value=""hidden>Цвет</option>
+                                             <option value=""hidden>Руль</option>
                                              <option value="1">Option 1</option>
                                              <option value="2">Option 2</option>
                                              <option value="3">Option 3</option>
@@ -1303,7 +1311,7 @@
                                        </div>
                                        <div include="form-input-select()">
                                           <select required>
-                                             <option value=""hidden>Подъемная мощность</option>
+                                             <option value=""hidden>Цвет</option>
                                              <option value="1">Option 1</option>
                                              <option value="2">Option 2</option>
                                              <option value="3">Option 3</option>
@@ -1315,16 +1323,6 @@
                                        <div include="form-input-select()">
                                           <select required>
                                              <option value=""hidden>Количество дверей</option>
-                                             <option value="1">Option 1</option>
-                                             <option value="2">Option 2</option>
-                                             <option value="3">Option 3</option>
-                                             <option value="4">Option 4</option>
-                                             <option value="5">Option 5</option>
-                                          </select>
-                                       </div>
-                                       <div include="form-input-select()">
-                                          <select required>
-                                             <option value=""hidden>Дефекты</option>
                                              <option value="1">Option 1</option>
                                              <option value="2">Option 2</option>
                                              <option value="3">Option 3</option>
@@ -1366,7 +1364,7 @@
                                        </div>
                                       <div include="form-input-select()">
                                           <select required>
-                                             <option value=""hidden>Евростандарт</option>
+                                             <option value=""hidden>Передняя подвеска</option>
                                              <option value="1">Option 1</option>
                                              <option value="2">Option 2</option>
                                              <option value="3">Option 3</option>
@@ -1376,7 +1374,7 @@
                                        </div>
                                       <div include="form-input-select()">
                                           <select required>
-                                             <option value=""hidden>Передняя подвеска</option>
+                                             <option value=""hidden>Евростандарт</option>
                                              <option value="1">Option 1</option>
                                              <option value="2">Option 2</option>
                                              <option value="3">Option 3</option>
@@ -1395,6 +1393,16 @@
                                           </select>
                                        </div>
 
+                                        <div include="form-input-select()">
+                                            <select required>
+                                                <option value=""hidden>Дефекты</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                                <option value="4">Option 4</option>
+                                                <option value="5">Option 5</option>
+                                            </select>
+                                        </div>
                                        
                                     </div>
                                     <div class="mob-12 tab-6 lt-4 mon-4">
@@ -1534,16 +1542,33 @@
                                                 </select>
                                              </div>
                                           </div>
-                                       </div>
-                                       <div include="form-input-select()">
-                                          <select required>
-                                             <option value=""hidden>Руль</option>
-                                             <option value="1">Option 1</option>
-                                             <option value="2">Option 2</option>
-                                             <option value="3">Option 3</option>
-                                             <option value="4">Option 4</option>
-                                             <option value="5">Option 5</option>
-                                          </select>
+                                           <div class="mob-12 tab-12 lt-4 mon-4">
+                                               <p class="d-ph">Подъемная мощность</p>
+                                           </div>
+                                           <div class="mob-12 tab-6 lt-4 mon-4">
+                                               <div include="form-input-select()">
+                                                   <select required>
+                                                       <option value=""hidden>От</option>
+                                                       <option value="1">Option 1</option>
+                                                       <option value="2">Option 2</option>
+                                                       <option value="3">Option 3</option>
+                                                       <option value="4">Option 4</option>
+                                                       <option value="5">Option 5</option>
+                                                   </select>
+                                               </div>
+                                           </div>
+                                           <div class="mob-12 tab-6 lt-4 mon-4">
+                                               <div include="form-input-select()">
+                                                   <select required>
+                                                       <option value=""hidden>До</option>
+                                                       <option value="1">Option 1</option>
+                                                       <option value="2">Option 2</option>
+                                                       <option value="3">Option 3</option>
+                                                       <option value="4">Option 4</option>
+                                                       <option value="5">Option 5</option>
+                                                   </select>
+                                               </div>
+                                           </div>
                                        </div>
                                     </div>
                                  </div>
@@ -1811,16 +1836,16 @@
                                     <div class="mob-12 tab-12 lt-6 mon-5">
                                        <div class="container-radio">
                                           <div class="radio">
-                                             <input id="radio-1" name="radio" type="radio" checked>
-                                             <label for="radio-1" class="radio-label">Новое</label>
+                                             <input id="radio-10" name="radiomoto" type="radio" checked>
+                                             <label for="radio-10" class="radio-label">Новое</label>
                                           </div>
                                           <div class="radio">
-                                             <input id="radio-2" name="radio" type="radio">
-                                             <label for="radio-2" class="radio-label">Б/у</label>
+                                             <input id="radio-11" name="radiomoto" type="radio">
+                                             <label for="radio-11" class="radio-label">Б/у</label>
                                           </div>
                                           <div class="radio">
-                                             <input id="radio-3" name="radio" type="radio">
-                                             <label for="radio-3" class="radio-label">Искать все</label>
+                                             <input id="radio-12" name="radiomoto" type="radio">
+                                             <label for="radio-12" class="radio-label">Искать все</label>
                                           </div>
                                        </div>
                                     </div>
@@ -1831,6 +1856,16 @@
                                  </div>
                                  <div class="row">
                                     <div class="mob-12 tab-6 lt-4 mon-4">
+                                        <div include="form-input-select()">
+                                            <select required>
+                                                <option value=""hidden>Тип</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                                <option value="4">Option 4</option>
+                                                <option value="5">Option 5</option>
+                                            </select>
+                                        </div>
                                        <div include="form-input-select()">
                                           <select required>
                                              <option value=""hidden>Марка</option>
@@ -1864,16 +1899,6 @@
                                        <div include="form-input-select()">
                                           <select required>
                                              <option value=""hidden>Цвет</option>
-                                             <option value="1">Option 1</option>
-                                             <option value="2">Option 2</option>
-                                             <option value="3">Option 3</option>
-                                             <option value="4">Option 4</option>
-                                             <option value="5">Option 5</option>
-                                          </select>
-                                       </div>
-                                       <div include="form-input-select()">
-                                          <select required>
-                                             <option value=""hidden>Дефекты</option>
                                              <option value="1">Option 1</option>
                                              <option value="2">Option 2</option>
                                              <option value="3">Option 3</option>
@@ -1924,6 +1949,16 @@
                                              <option value="5">Option 5</option>
                                           </select>
                                        </div>
+                                        <div include="form-input-select()">
+                                            <select required>
+                                                <option value=""hidden>Дефекты</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                                <option value="4">Option 4</option>
+                                                <option value="5">Option 5</option>
+                                            </select>
+                                        </div>
                                     </div>
                                     <div class="mob-12 tab-6 lt-4 mon-4">
                                        <div class="row">
@@ -2179,16 +2214,16 @@
                                     <div class="mob-12 tab-12 lt-6 mon-5">
                                        <div class="container-radio">
                                           <div class="radio">
-                                             <input id="radio-1" name="radio" type="radio" checked>
-                                             <label for="radio-1" class="radio-label">Новое</label>
+                                             <input id="radio-13" name="radioagrimotor" type="radio" checked>
+                                             <label for="radio-13" class="radio-label">Новое</label>
                                           </div>
                                           <div class="radio">
-                                             <input id="radio-2" name="radio" type="radio">
-                                             <label for="radio-2" class="radio-label">Б/у</label>
+                                             <input id="radio-14" name="radioagrimotor" type="radio">
+                                             <label for="radio-14" class="radio-label">Б/у</label>
                                           </div>
                                           <div class="radio">
-                                             <input id="radio-3" name="radio" type="radio">
-                                             <label for="radio-3" class="radio-label">Искать все</label>
+                                             <input id="radio-15" name="radioagrimotor" type="radio">
+                                             <label for="radio-15" class="radio-label">Искать все</label>
                                           </div>
                                        </div>
                                     </div>
@@ -2240,27 +2275,7 @@
                                              <option value="5">Option 5</option>
                                           </select>
                                        </div>
-                                       <div include="form-input-select()">
-                                          <select required>
-                                             <option value=""hidden>Высота подъема, м</option>
-                                             <option value="1">Option 1</option>
-                                             <option value="2">Option 2</option>
-                                             <option value="3">Option 3</option>
-                                             <option value="4">Option 4</option>
-                                             <option value="5">Option 5</option>
-                                          </select>
-                                       </div>
 
-                                      <div include="form-input-select()">
-                                          <select required>
-                                             <option value=""hidden>Руль</option>
-                                             <option value="1">Option 1</option>
-                                             <option value="2">Option 2</option>
-                                             <option value="3">Option 3</option>
-                                             <option value="4">Option 4</option>
-                                             <option value="5">Option 5</option>
-                                          </select>
-                                       </div>
                                     </div>
                                     <div class="mob-12 tab-6 lt-4 mon-4">
                                        <div include="form-input-select()">
@@ -2293,27 +2308,16 @@
                                              <option value="5">Option 5</option>
                                           </select>
                                        </div>
-                                       <div include="form-input-select()">
-                                          <select required>
-                                             <option value=""hidden>Длинна стрелы</option>
-                                             <option value="1">Option 1</option>
-                                             <option value="2">Option 2</option>
-                                             <option value="3">Option 3</option>
-                                             <option value="4">Option 4</option>
-                                             <option value="5">Option 5</option>
-                                          </select>
-                                       </div>
-                                       <div include="form-input-select()">
-                                          <select required>
-                                             <option value=""hidden>Глубина рытья. мм</option>
-                                             <option value="1">Option 1</option>
-                                             <option value="2">Option 2</option>
-                                             <option value="3">Option 3</option>
-                                             <option value="4">Option 4</option>
-                                             <option value="5">Option 5</option>
-                                          </select>
-                                       </div>
-                                      
+                                        <div include="form-input-select()">
+                                            <select required>
+                                                <option value=""hidden>Руль</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                                <option value="4">Option 4</option>
+                                                <option value="5">Option 5</option>
+                                            </select>
+                                        </div>
                                     </div>
                                     <div class="mob-12 tab-6 lt-4 mon-4">
                                        <div class="row">
@@ -2650,29 +2654,31 @@
                      </div>
                   </div>
                </div>
-               <div class="mob-12 tab-12 lt-3 mon-3">
-                  <div class="row">
-                     <div class="mob-12 tab-6 lt-12 mon-12">
-                        <a href="#" class="adver-banner">
-                           <img src="img/bnr-1.jpg" alt="">
-                           <p>НОВЫЕ АВТОМОБИЛИ</p>
-                        </a>
-                     </div>
-                     <div class="mob-12 tab-6 lt-12 mon-12">
-                        <a href="#" class="adver-banner">
-                           <img src="img/bnr-1.jpg" alt="">
-                           <p>СРОЧНАЯ ПРОДАЖА</p>
-                        </a>
-                     </div>
-                     <div class="mob-12 tab-6 lt-12 mon-12">
-                        <a href="#" class="adver-banner">
-                           <img src="img/bnr-1.jpg" alt="">
-                           <p>СПЕЦ. ПРЕДЛОЖЕНИЕ</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
+                <div class="mob-12 tab-12 lt-3 mon-3 adver-banner-block ">
+                    <div class="row">
+                        <div class="lt-12 mon-12">
+                            <div class="adver-banner">
+                                <a href="#" class="bnr-1">
+                                    <p>НОВЫЕ АВТОМОБИЛИ</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="lt-12 mon-12">
+                            <div class="adver-banner">
+                                <a href="#" class="bnr-2">
+                                    <p>СРОЧНАЯ ПРОДАЖА</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="lt-12 mon-12">
+                            <div class="adver-banner">
+                                <a href="#" class="bnr-1">
+                                    <p>СПЕЦ. ПРЕДЛОЖЕНИЕ</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>            </div>
          </div>
       </div>
       <footer>

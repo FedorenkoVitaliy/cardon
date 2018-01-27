@@ -262,29 +262,6 @@ $(document).ready(function () {
     }
   })
 
-
-
-
-
-    /*setInterval(function () {
-        if (cursorAway) {
-            $("#main-slide").html(slidesz[slideNumber]);
-            aSlides[slideNumber].addClass("activeSlide");
-
-            if (slideNumber < slidesz.length - 1) {
-                slideNumber++;
-            } else {
-                slideNumber = 0;
-            }
-        }
-    }, 1000);*/
-
-//    $("#main-slide").mouseenter(function () {
-//        cursorAway = false;
-//    }).mouseleave(function () {
-//        cursorAway = true;
-//    });
-
     var agreement=$(".agreement");
     var toggleAgrShow=$(".toggleAgrShow");
     var toggleAgrHide=$(".toggleAgrHide");
@@ -300,4 +277,11 @@ $(document).ready(function () {
         toggleAgrHide.toggle();
         toggleAgrShow.toggle();
     });
+
+    var clickNext=$(".eil>.next");
+    var modelsDetailed=$(".modelsDetailed");
+    clickNext.click(function(){
+        modelsDetailed.toggle();
+        $(this).toggleClass("nextRotate");
+    })
 });
