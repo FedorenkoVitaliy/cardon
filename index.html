@@ -16,7 +16,22 @@
             <li><a href="#">Контакты</a></li>
         </ul>
         <ul class="control-left">
-            <li><a href="#"><img src="img/ic-1.png" alt="">Ваш город: <b> Киев </b></a></li>
+            <li>
+                <a href="#"><img src="img/ic-1.png" alt="">Ваш город: <b class="select-sity-open"> Киев </b></a>
+                <div class="select-sity" style="display: none;">
+                    <p>Выберите город</p>
+                    <div include="form-input-select()">
+                        <select required>
+                            <option value=""hidden>Город</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                            <option value="5">Option 5</option>
+                        </select>
+                    </div>
+                </div>
+            </li>
             <li><a href="#"><img src="img/ic-2.png" alt="">Отмеченные</a></li>
         </ul>
         <ul class="control-right"><li><a href="#"><img src="img/ic-3.png" alt="">Мой поиск</a></li>
@@ -36,7 +51,7 @@
         </ul>
         <a href="#" class="gr-a">+ ПОДАТЬ ОБЪЯВЛЕНИЕ</a>
     </nav>
-</header>>
+</header>
 <ul id="slides">
     <img src="img/hsl-1.jpg" alt="" style="width:100%">
     <li class="slide showing">

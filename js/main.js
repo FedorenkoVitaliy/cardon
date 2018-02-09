@@ -113,7 +113,7 @@ $(document).ready(function () {
     activeTab.show();
 
     // Set height of wrapper on page load
-    tabWrapper.height(activeTabHeight);
+    //tabWrapper.height(activeTabHeight);
 
     $(".tabs > li").on("click", function () {
      
@@ -173,7 +173,7 @@ $(document).ready(function () {
     },
     {
       url: 'url(./icons/ico-35.svg)',
-      text: 'Запчасти для мотоциклов'
+      text: 'Запчасти для мототехники'
     },
     {
       url: 'url(./icons/ico-34.svg)',
